@@ -1,0 +1,16 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#section-main {
+    background: #700135;
+}
+
+#section-main h1 {
+    color: white;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.section-title {
+    color: #50515c
+}
