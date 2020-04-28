@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.main-header {
+    width: 100%;
+    padding: 8px 16px;
+    background: white;
+    border: #09498a 5px solid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.main-header__brand {
+    color: #2e2f31;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    text-align: right;
+    width: calc(100% - 74px);
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.main-nav__item a {
+    color: #2e2f31;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px 0;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: #09498a;
+    border-bottom: 5px #09498a solid;
+}
+
+.main-nav__item--cta a {
+    background: #09498a;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    background: white;
+    color: #09498a;
+    border: #09498a 5px solid;
+    padding: 3px 11px;
+}
+
+.main-footer {
+    background: black;
+    padding: 32px;
+    margin-top: 48px;
+}
+
+.main-footer__links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.main-footer__link {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-footer__link > a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-footer__link > a:hover,
+.main-footer__link > a:active {
+    color: #ccc;
+}
+
+.btn {
+    background: #09498a;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    border: 2px #09498a solid;
+}
+
+.btn:hover,.btn.active {
+    color: #09498a;
+    background: white;
+}
+
+.btn:focus {
+    outline: none;
+}
