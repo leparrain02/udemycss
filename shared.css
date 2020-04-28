@@ -60,7 +60,7 @@ body {
 .main-nav__item a:hover,
 .main-nav__item a:active {
     color: #09498a;
-    border-bottom: 5px #09498a solid;
+    border-bottom: 3px #09498a solid;
 }
 
 .main-nav__item--cta a {
@@ -74,8 +74,8 @@ body {
 .main-nav__item--cta a:active {
     background: white;
     color: #09498a;
-    border: #09498a 5px solid;
-    padding: 3px 11px;
+    border: #09498a 3px solid;
+    padding: 5px 13px;
 }
 
 .main-footer {
