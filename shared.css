@@ -7,9 +7,20 @@ body {
     margin: 0;
 }
 
+.backdrop {
+    position: fixed;
+    display: none;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: rgba(0,0,0,0.5);
+}
+
 .main-header {
     width: 100%;
-    padding: 8px 16px;
+    padding: 0.5rem 16px;
     background: white;
     border: #09498a 5px solid;
     position: fixed;
@@ -22,9 +33,9 @@ body {
     color: #2e2f31;
     text-decoration: none;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 1.4rem;
     display: inline-block;
-    height: 22px;
+    height: 1.4rem;
 }
 
 .main-header > div {
@@ -36,7 +47,7 @@ body {
     display: inline-block;
     text-align: right;
     text-align: right;
-    width: calc(100% - 74px);
+    width: calc(100% - 5rem);
     vertical-align: middle;
 }
 
