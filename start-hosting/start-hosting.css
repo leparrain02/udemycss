@@ -1,0 +1,22 @@
+main{
+    padding-top: 2rem;
+}
+
+.signup-title{
+    color: #50515c;
+    text-align: center;
+}
+
+.signup-form input,
+.signup-form label,
+.signup-form select,
+.signup-form button {
+    display: block;
+    margin: 1rem auto;
+}
+
+.signup-form label{
+    font-weight: bold;
+    text-align: center;
+}
+
