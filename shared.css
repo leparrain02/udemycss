@@ -227,6 +227,13 @@ main {
     background: white;
 }
 
+.btn[disabled]{
+    cursor: not-allowed;
+    background-color: #ccc;
+    border-color: rgb(136, 135, 135);
+    color:rgb(136, 135, 135);
+}
+
 .btn:focus {
     outline: none;
 }
