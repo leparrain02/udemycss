@@ -28,6 +28,6 @@ backdrop.addEventListener("click",() => {
 });
 
 toggleButton.addEventListener("click",() => {
-    mobileNav.style.display = "block";
+    mobileNav.style.display = "flex";
     backdrop.style.display="block";
 });
