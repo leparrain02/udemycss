@@ -10,13 +10,14 @@ main{
 
 .signup-form{
     padding: 1rem;
+    display: grid;
+    row-gap: 16px;
 }
 
 .signup-form input,
 .signup-form label,
 .signup-form select {
     display: block;
-    margin-top: 1rem;
     width: 100%;
 }
 
@@ -63,13 +64,24 @@ main{
 
 .signup-form button[type="submit"] {
     display: block;
-    margin-top: 1rem;
 }
+
+
 
 @media(min-width: 40rem){
     .signup-form {
-        width: 25rem;
+        width: 30rem;
         margin-left: auto;
         margin-right:auto;
+        grid-template-columns: 8rem auto;
+        column-gap: 8px;
+    }
+
+    .signup-form__agree-terms {
+        grid-column: span 2;
+    }
+
+    #title {
+        grid-column: span 2;
     }
 }
